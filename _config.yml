@@ -72,6 +72,14 @@ footer:
       url: "https://github.com/sinitame"
 
 defaults:
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
   # _posts
   - scope:
       path: ""
@@ -90,6 +98,12 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
 
 category_archive:
   type: liquid
