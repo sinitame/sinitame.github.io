@@ -1,6 +1,6 @@
 ---
-name: 'Project 1'
-category: Machine learning
+name: 'Project 2'
+category: 'Hardware development'
 description: 'This is an example description of this project'
 image: '/assets/images/project-1.png'
 ---
