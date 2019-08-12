@@ -4,6 +4,6 @@ main:
   - title: "Projects"
     url: /projects/
   - title: "CV"
-  url: /online-cv/
+    url: /online-cv/
   - title: "About"
     url: /
