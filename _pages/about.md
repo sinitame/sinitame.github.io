@@ -1,6 +1,11 @@
 ---
-permalink: /about/
-title: "About"
+layout: single
+classes: wide
+header:
+  overlay_color: "#5e616c"
+excerpt: R&D Engineer
+permalink: /
+title: "Emrick Sinitambirivoutin"
 ---
 
 Currently in my last year at Grenoble INP ENSIMAG , I’m specialized in embedded systems and
