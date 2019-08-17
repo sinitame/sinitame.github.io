@@ -1,10 +1,9 @@
 ---
 title: Travels
-layout: collection
+layout: travels
 permalink: /travels/
 collection: travels
-entries_layout: grid
 classes: wide
 ---
 
-Sample document listing for the collection `_portfolio`.
+Sample document listing for the collection `_travels`.

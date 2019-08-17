@@ -1,0 +1,53 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% assign travels_row = site.travels %}
+
+<div class="feature__wrapper">
+
+  {% for destination in travels_row %}
+
+    {% if destination.url contains "://" %}
+      {% capture destination_url %}{{ destination.url }}{% endcapture %}
+    {% else %}
+      {% capture destination_url %}{{ destination.url | relative_url }}{% endcapture %}
+    {% endif %}
+
+    <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
+      <div class="archive__item">
+        {% if destination.image_path %}
+          <div class="archive__item-teaser">
+						<a href="{{ destination_url }}">
+            <img src=
+              {% if destination.image_path contains "://" %}
+                "{{ destination.image_path }}"
+              {% else %}
+                "{{ destination.image_path | relative_url }}"
+              {% endif %}
+								 alt="{% if destination.alt %}{{ destination.alt }}{% endif %}"></a>
+            {% if destination.image_caption %}
+              <span class="archive__item-caption">{{ destination.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        <div class="archive__item-body">
+          {% if destination.title %}
+            <h2 class="archive__item-title">{{ destination.title }}</h2>
+          {% endif %}
+
+          {% if destination.excerpt %}
+            <div class="archive__item-excerpt">
+              {{ destination.excerpt | markdownify }}
+            </div>
+          {% endif %}
+
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+
+</div>
