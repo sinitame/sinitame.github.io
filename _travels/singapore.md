@@ -1,30 +1,58 @@
 ---
 title: "Singapore"
-image_caption: "Test"
-excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
-image_path: assets/images/unsplash-gallery-image-2-th.jpg
-alt: "placeholder image 1"
+image_caption: "A trip in Singapore"
+excerpt: "\"It's not because you visited somewhere during the day that you won't be impressed during the night.\""
+image_path: assets/images/singapore/thumbnail.jpg
+alt: "Welcome to Singapore"
 header:
-  image: /assets/images/unsplash-gallery-image-2.jpg
+  image: /assets/images/singapore/header.jpg
 sidebar:
-  - title: "Title"
-    image: http://placehold.it/350x250
-    image_alt: "image"
-    text: "Some text here."
-  - title: "Another Title"
-    text: "More text here."
-gallery:
-  - url: /assets/images/unsplash-gallery-image-1.jpg
-    image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-  - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
+  - title: "Singapore"
+    image: /assets/images/singapore/singapore-flag.jpg
+    image_alt: "Singapore flag"
+    text: "A five day trip to what is said to be one of the top city in the world but which is for me the city of tomorrow."
+food:
+  - url: /assets/images/singapore/food-1.jpg
+    image_path: assets/images/singapore/food-1-th.jpg
+    alt: "Grilled chicken stand"
+  - url: /assets/images/singapore/food-2.jpg
+    image_path: assets/images/singapore/food-2-th.jpg
+    alt: "Street hawker center"
+museum:
+  - url: /assets/images/singapore/museum-1.jpg
+    image_path: assets/images/singapore/museum-1-th.jpg
+    alt: "National museum of Singapore"
+  - url: /assets/images/singapore/museum-2.jpg
+    image_path: assets/images/singapore/museum-2-th.jpg
+    alt: "National museum of Singapore"
+  - url: /assets/images/singapore/museum-3.jpg
+    image_path: assets/images/singapore/museum-3-th.jpg
+    alt: "National museum of Singapore"
+night:
+  - url: /assets/images/singapore/night-1.jpg
+    image_path: assets/images/singapore/night-1-th.jpg
+    alt: "Gardens by the Bay"
+  - url: /assets/images/singapore/night-2.jpg
+    image_path: assets/images/singapore/night-2-th.jpg
+    alt: "Gardens by the Bay"
+  - url: /assets/images/singapore/night-3.jpg
+    image_path: assets/images/singapore/night-3-th.jpg
+    alt: "Gardens by the Bay"
+nature:
+  - url: /assets/images/singapore/nature-1.jpg
+    image_path: assets/images/singapore/nature-1-th.jpg
+    alt: "Singapore Changi Airport"
+  - url: /assets/images/singapore/nature-2.jpg
+    image_path: assets/images/singapore/nature-2-th.jpg
+    alt: "Singapore National botanic parc"
 classes: wide
 ---
 
-Pictures of Goats section West Seattle Blog dingbat newspaper rubber cement Google+ newsroom cafe news.me rubber cement, Ushahidi Kindle Single syndicated Instagram HuffPo community mthomps, Mozilla iPhone app should isn't a business model curmudgeon Snarkmarket Tim Carmody production of innocence. Fuego tweets community DocumentCloud metered model Gardening & War section YouTube social media SEO information overload analytics Aron Pilhofer Journal Register data visualization WikiLeaks Groupon, collaboration Steve Jobs we need a Nate Silver AP What Would Google Do the power of the press belongs to the person who owns one Clay Shirky curmudgeon Voice of San Diego free as in beer dead trees the notion of the public Lucius Nieman.
 
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
+{% include gallery id="night" caption="Some pictures of the Garden by the Bay Supertrees at night" %}
 
-hackgate copyright Lucius Nieman CNN leaves it there right-sizing a giant stack of newspapers that you'll never read net neutrality algorithms RT algorithms TechCrunch 5% corruption, horse-race coverage Gardening & War section CTR try PR CPC David Cohn shoot a photo algorithms content is king Android Snarkmarket crowdfunding, Fuego Twitter topples dictators YouTube abundance WordPress Reuters try PR stupid commenters should isn't a business model bringing a tote bag to a knife fight.
+{% include gallery id="nature" caption="Singapore Changi airport and National Parc" %}
+
+{% include gallery id="food" caption="One of Singapore well known hawker centre at night" %}
+
+{% include gallery id="museum" caption="National Museum of Singapore" %}
