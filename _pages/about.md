@@ -2,7 +2,7 @@
 layout: single
 classes: wide
 header:
-  overlay_color: "#5e616c"
+    image: /assets/images/bio-banner.jpg
 excerpt: R&D Engineer
 permalink: /about/
 title: "Emrick Sinitambirivoutin"
