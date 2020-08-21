@@ -4,7 +4,7 @@ classes: wide
 header:
   overlay_color: "#5e616c"
 excerpt: R&D Engineer
-permalink: /
+permalink: /about/
 title: "Emrick Sinitambirivoutin"
 ---
 
@@ -34,4 +34,3 @@ beteen a FPGA and a GPU using IBM Coherent Accelerator Processor Interface
 (CAPI) and NVIDIA NVLINK technology to maximize throughtputs in the pipeline.
 *I made some open-source contributions to the SNAP framework developped by IBM
 teams and available on GitHub*
- 
