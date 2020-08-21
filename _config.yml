@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: ES
 email:
-description: Emrick Sinitambirivoutin personal website.
+description: Welcome to personal website, you will learn more about my skills, my projects and my hobbies.
 github_username: sinitame
 minimal_mistakes_skin: default
 search: true
