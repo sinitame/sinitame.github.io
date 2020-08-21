@@ -56,16 +56,16 @@ plugins:
 author:
   name   : "Emrick Sinitambirivoutin"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Machine Learning enthusiast and inveterate traveler ✈️"
+  bio    : "Machine Learning enthusiast 👨🏻‍💻and inveterate traveler ✈️"
   links:
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fa fa-github"
       url: "https://github.com/sinitame"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fa fa-linkedin"
       url: "https://www.linkedin.com/in/emrick-sinitambirivoutin/"
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter"
+      icon: "fa fa-twitter"
       url: "https://twitter.com/EmrickSini"
 
 footer:
