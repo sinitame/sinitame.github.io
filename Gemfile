@@ -1,7 +1,9 @@
 source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
-gem "nokogiri", ">= 1.10.4"
+gem "json", ">= 2.3.0"
+gem "kramdown", ">= 2.3.0"
+gem "nokogiri", ">= 1.10.8"
 gem "tzinfo-data"
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
