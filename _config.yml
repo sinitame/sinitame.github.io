@@ -55,7 +55,7 @@ plugins:
 
 author:
   name   : "Emrick Sinitambirivoutin"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/bio-photo.png"
   bio    : "Machine Learning enthusiast 👨🏻‍💻and inveterate traveler ✈️"
   links:
     - label: "GitHub"

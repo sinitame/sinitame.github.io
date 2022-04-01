@@ -10,4 +10,4 @@ Computer science student at Grenoble INP [ENSIMAG](https://www.ensimag.grenoble-
 
 Machine Learning Engineer at [Sonos](https://www.sonos.com/fr-fr/home)
 
-[emrick.sinitambirivoutin[at]grenoble-inp.org](mailto:emrick.sinitambirivoutin[at]grenoble-inp.org)
+[sinitame[at]prontonmail.com](mailto:sinitame[at]prontonmail.com)
