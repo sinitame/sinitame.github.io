@@ -1,6 +1,4 @@
 main:
-  - title: "Blog"
-    url: /categories/
   - title: "Projects"
     url: /projects/
   - title: "Travel"
