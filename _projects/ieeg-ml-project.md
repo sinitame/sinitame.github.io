@@ -2,7 +2,7 @@
 title: 'Epileptic seizure prediction on iEEGs signals using Machine learning
 '
 name: 'Epileptic seizure prediction'
-category: Machine learning
+category: Machine Learning
 description: 'This is an example description of this project'
 image: '/assets/images/projects/ieeg-ml-project.jpg'
 ---

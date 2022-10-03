@@ -1,7 +1,7 @@
 ---
 title: 'Exploring French National Traffic injuries data'
 name: 'Exploring French National Traffic injuries data'
-category: 'Data analysis'
+category: 'Data Analysis'
 description: 'This is an example description of this project'
 image: '/assets/images/projects/epfl-ada-project.jpg'
 ---
